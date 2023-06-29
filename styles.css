@@ -1,1 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.container h1 {
+  color: #7e7c89;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+#inputbox {
+  background: #19171f;
+  border: none;
+  outline: none;
+  color: #53525a;
+  padding: 10px 10px;
+  margin-block: 20px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+#inputbox input[type="text"] {
+  background: #19171f;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  color: #53525a;
+}
+#passdiv {
+  background: transparent;
+  background-color: #19171f;
+  color: #ffffff;
+  border-radius: 4px;
+}
+.row {
+  display: flex;
+  margin-block: 10px;
+}
+.row p {
+  flex-basis: 60%;
+  margin: 10px 10px 10px 0px;
+}
+span {
+  flex-basis: 60%;
+  margin: 10px;
+  padding-left: 200px;
+  color: #a4ffaf;
+}
+#inputslider {
+  width: 90%;
+  margin: 10px;
+}
 
+.row input[type="checkbox"] {
+  cursor: pointer;
+  margin: 0px 10px 0px 10px;
+}
+.row input {
+  flex-basis: 10%;
+}
+#strengthbar {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  margin: 10px;
+}
+#strengthbar p {
+  flex-basis: 30%;
+  padding: 10px;
+  color: #82808e;
+  font-size: 13px;
+}
+#bardiv {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 60%;
+
+  padding-left: 200px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.bar {
+  border: 2px solid #fff;
+  margin: 2px;
+  color: #17161e;
+  padding: 2px;
+}
+#btn {
+  background-color: #a4ffaf;
+  position: relative;
+  width: 95%;
+  height: 37px;
+  margin: 5px;
+  color: #04210f;
+  font-weight: bold;
+  font-size: 15px;
+}

@@ -4,8 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>password generator</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>hy</h1>
+    <div class="container">
+      <h1>Password Generator</h1>
+      <div id="inputbox">
+        <input type="text" placeholder="P4$5WOrD!" />
+        <img src="Vectorimg1.png" alt="" />
+      </div>
+      <div id="passdiv">
+        <div class="row">
+          <p>Character Length</p>
+          <span>0</span>
+        </div>
+        <input type="range" value="0" min="1" max="10" id="inputslider" />
+        <div class="row">
+          <input type="checkbox" name="lowerCase" id="lowerCase" />
+          <label for="lowerCase">Include Lowercase letters</label>
+        </div>
+        <div class="row">
+          <input type="checkbox" name="upperCase" id="upperCase" />
+          <label for="upperCase">Include Uppercase letters</label>
+        </div>
+        <div class="row">
+          <input type="checkbox" name="numbers" id="numbers" />
+          <label for="numbers">Include Numbers</label>
+        </div>
+        <div class="row">
+          <input type="checkbox" name="symbols" id="symbols" />
+          <label for="symbols">Symbols</label>
+        </div>
+        <div id="strengthbar">
+          <p>STRENGTH</p>
+          <div id="bardiv">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+        <button id="btn">GENERATE&nbsp;-></button>
+      </div>
+    </div>
   </body>
 </html>
