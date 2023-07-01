@@ -10,15 +10,16 @@
     <div class="container">
       <h1>Password Generator</h1>
       <div id="inputbox">
-        <input type="text" placeholder="P4$5WOrD!" />
+        <input type="text" placeholder="P4$5WOrD!" id="inputpassbox" />
         <img src="Vectorimg1.png" alt="" />
       </div>
       <div id="passdiv">
         <div class="row">
           <p>Character Length</p>
-          <span>0</span>
+          <span id="slidervalue">0</span>
         </div>
-        <input type="range" value="0" min="1" max="10" id="inputslider" />
+        <input type="range" min="1" max="10" id="inputslider" value="8" />
+
         <div class="row">
           <input type="checkbox" name="lowerCase" id="lowerCase" />
           <label for="lowerCase">Include Lowercase letters</label>
@@ -45,6 +46,7 @@
           </div>
         </div>
         <button id="btn">GENERATE&nbsp;-></button>
+        <script src="script.js"></script>
       </div>
     </div>
   </body>

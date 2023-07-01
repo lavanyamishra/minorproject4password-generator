@@ -34,7 +34,7 @@ body {
   border: none;
   outline: none;
   font-size: 30px;
-  color: #53525a;
+  color: #ffffff;
 }
 #passdiv {
   background: transparent;
@@ -104,4 +104,5 @@ span {
   color: #04210f;
   font-weight: bold;
   font-size: 15px;
+  cursor: pointer;
 }
